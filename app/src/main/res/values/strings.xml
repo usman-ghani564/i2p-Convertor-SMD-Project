@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">i2p Convertor SMD project</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">username \ email</string>
+    <string name="back">Back.</string>
+    <string name="welcome">Welcome</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="i2p_convertor">i2p Convertor :)</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login_instead">login Instead</string>
+    <string name="sign_up_instead">Sign Up Instead</string>
+    <string name="google_image">Google image</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="login_with_facebook">Login with Facebook</string>
+    <string name="sign_up_with_facebook">Sign Up with Facebook</string>
 </resources>

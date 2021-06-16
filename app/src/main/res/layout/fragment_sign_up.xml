@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpFragment"
+    android:background="@color/black"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to"
+        android:textColor="@color/white"
+        android:id="@+id/signup_welcome"
+        android:textSize="36sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/i2p_convertor"
+        android:textColor="@color/white"
+        android:id="@+id/signup_back"
+        android:layout_below="@id/signup_welcome"
+        android:textSize="36sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/signup_username_edit"
+        android:layout_below="@id/signup_back"
+        android:background="@drawable/edittext_rounded"
+        android:layout_marginTop="40dp"
+        android:hint="@string/username"
+        android:paddingHorizontal="20dp"
+        android:inputType="text"
+        android:autofillHints="hint123@gmail.com"
+        android:layout_marginHorizontal="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/signup_password_edit"
+        android:layout_below="@id/signup_username_edit"
+        android:background="@drawable/edittext_rounded"
+        android:layout_marginTop="25dp"
+        android:hint="@string/password"
+        android:paddingHorizontal="20dp"
+        android:inputType="textPassword"
+        android:autofillHints="123456"
+        android:layout_marginHorizontal="20dp"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button"
+        android:text="@string/sign_up"
+        android:id="@+id/signup_button"
+        android:layout_below="@id/signup_password_edit"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signup_password_edit"
+        android:id="@+id/signup_login_instead"
+        android:text="@string/login_instead"
+        android:textStyle="normal"
+        android:textColor="#22FF00"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_below="@id/signup_button"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/line_break"
+        android:id="@+id/signup_line_break"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@drawable/login_button"
+        android:layout_below="@id/signup_line_break"
+        android:layout_marginTop="40dp"
+        android:paddingHorizontal="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:id="@+id/signup_google_button">
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@mipmap/google_image_foreground"
+            android:contentDescription="@string/google_image"
+            android:layout_marginTop="7dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up with Google"
+            android:textColor="#D42727"
+            android:textSize="22sp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="12dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@drawable/login_button"
+        android:layout_below="@id/signup_google_button"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:id="@+id/signup_facebook_button">
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@mipmap/facebook_image_foreground"
+            android:contentDescription="@string/google_image"
+            android:layout_marginTop="7dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up_with_facebook"
+            android:textColor="#276CD4"
+            android:textSize="18sp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="14dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logo Here"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"/>
+
+
+</RelativeLayout>
