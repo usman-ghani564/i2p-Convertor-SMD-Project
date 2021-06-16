@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "455831821086",
+    "project_id": "i2p-convertor-smd-project",
+    "storage_bucket": "i2p-convertor-smd-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455831821086:android:1eafd2da42925446d7470f",
+        "android_client_info": {
+          "package_name": "com.example.i2pconvertorsmdproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455831821086-e1fcevi4quegqiaiqbblh6qhhbuqsa3u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_yiYOIzLGRAMr_RupAJFx89QAxqMgDyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "455831821086-e1fcevi4quegqiaiqbblh6qhhbuqsa3u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
